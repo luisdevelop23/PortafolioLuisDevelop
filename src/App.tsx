@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import JsIcon from "./assets/icons/JsIcon";
+import MongoDBIcon from "./assets/icons/MongoDBIcon";
+import MySQLIcon from "./assets/icons/MySQLIcon";
+import NodeIcon from "./assets/icons/NodeIcon";
+import ReactIcon from "./assets/icons/ReactIcon";
+import TsIcon from "./assets/icons/TsIcon";
+import Footer from "./common/Footer";
+import NavBar from "./common/Navbar";
+import Background from "./components/Background";
+import Projects from "./components/Projects";
+import Work from "./components/Work";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Background />
+      <NavBar />
+      <main className="flex flex-col items-center gap-10 max-w-[1200px] mx-auto mt-10 md:mt-20 relative mb-[50px] md:mb-[100px] px-4 sm:px-6 md:px-8">
+        <Work />
+        <Projects />
+        <div className="absolute rotate-12 -top-5 right-0 animate-float">
+          <JsIcon className="md:h-30 md:w-30 h-15 w-30  " />
+        </div>
+        <div className="absolute -rotate-12 -top-4 left-0 animate-float">
+          <TsIcon className="md:h-30 md:w-30 h-15 w-30 " />
+        </div>
+        <div className="absolute rotate-12 top-35 left-15 animate-float">
+          <ReactIcon className="md:h-30 md:w-30 h-15 w-30  " />
+        </div>
+        <div className="absolute rotate-12 top-35 right-15 animate-float">
+          <NodeIcon className="md:h-30 md:w-30 h-15 w-30  " />
+        </div>
+        <div className="absolute -rotate-45 -top-20 right-60 animate-float">
+          <MySQLIcon className="md:h-30 md:w-30 h-15 w-30  " />
+        </div>
+        <div className="absolute -rotate-45 -top-20 left-60 animate-float">
+          <MongoDBIcon className="md:h-30 md:w-30 h-15 w-30  " />
+        </div>
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

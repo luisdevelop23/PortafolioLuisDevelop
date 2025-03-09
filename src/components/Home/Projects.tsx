@@ -1,4 +1,3 @@
-import React from "react";
 import projectsList from "../../data/projesctsList";
 const Projects = () => {
   const projects = projectsList;

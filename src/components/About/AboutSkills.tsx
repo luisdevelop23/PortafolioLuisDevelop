@@ -1,17 +1,16 @@
-import React from "react";
 import { motion } from "framer-motion";
+import HtmlICon from "../../assets/icons/HtmlIcon";
 import JsIcon from "../../assets/icons/JsIcon";
-import TsIcon from "../../assets/icons/TsIcon";
 import MongoDBIcon from "../../assets/icons/MongoDBIcon";
 import MySQLIcon from "../../assets/icons/MySQLIcon";
 import NodeIcon from "../../assets/icons/NodejsIcon";
-import ReactIcon from "../../assets/icons/ReactIcon";
-import TailwindCSSIcon from "../../assets/icons/TailwindCSSIcon";
-import SupabaseIcon from "../../assets/icons/SupabaseIcon";
-import HtmlICon from "../../assets/icons/HtmlIcon";
-import RailWayIcon from "../../assets/icons/RailWayIcon";
-import ViteIcon from "../../assets/icons/ViteIcon";
 import PostgreSQLIcon from "../../assets/icons/PostgreSQLIcon";
+import RailWayIcon from "../../assets/icons/RailWayIcon";
+import ReactIcon from "../../assets/icons/ReactIcon";
+import SupabaseIcon from "../../assets/icons/SupabaseIcon";
+import TailwindCSSIcon from "../../assets/icons/TailwindCSSIcon";
+import TsIcon from "../../assets/icons/TsIcon";
+import ViteIcon from "../../assets/icons/ViteIcon";
 
 const icons = [
   JsIcon,

@@ -1,4 +1,3 @@
-import React from "react";
 import Hi from "./Hi";
 import Presentation from "./Presentation";
 import Readme from "./Readme";

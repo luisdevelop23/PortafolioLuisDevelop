@@ -1,6 +1,5 @@
-import React from "react";
-import VscodeIcon from "../../assets/icons/VscodeIcon";
 import setup from "../../assets/escritorio.jpg";
+import VscodeIcon from "../../assets/icons/VscodeIcon";
 const Setup = () => {
   return (
     <a target="_blank" href="https://www.instagram.com/luis_saavedraf/">

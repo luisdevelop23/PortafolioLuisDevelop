@@ -1,3 +1,5 @@
+import { SVGProps } from "react";
+
 function LogosNodejs(props: SVGProps<SVGSVGElement>) {
   return (
     <svg

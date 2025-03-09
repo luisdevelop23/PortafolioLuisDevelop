@@ -1,7 +1,6 @@
-import React from "react";
-import RightIcon from "../../assets/icons/RightIcon";
-import DevIcon from "../../assets/icons/DevIcon";
 import { Link } from "react-router-dom";
+import DevIcon from "../../assets/icons/DevIcon";
+import RightIcon from "../../assets/icons/RightIcon";
 
 const Readme = () => {
   return (

@@ -1,8 +1,7 @@
-import React from "react";
 import GithubIcon from "../assets/icons/GithubIcon";
+import InstagramIcon from "../assets/icons/InstagramIcon";
 import LinkedInIcon from "../assets/icons/LinkedInIcon";
 import YouTubeIcon from "../assets/icons/YoutubeIcon";
-import InstagramIcon from "../assets/icons/InstagramIcon";
 
 const Footer = () => {
   return (

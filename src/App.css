@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background: linear-gradient(to bottom right,#ffc6c7,#bcc6ed);
+}
+
   
 @font-face {
   font-family: 'Acorn';
@@ -35,5 +39,17 @@ html {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: rgb(156, 163, 175);
+  }
+  100% {
+    color: white;
   }
 }

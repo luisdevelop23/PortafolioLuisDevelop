@@ -1,5 +1,5 @@
 import React from "react";
-import coding from "../assets/coding.webp";
+import coding from "../../assets/coding.webp";
 const Presentation = () => {
   return (
     <section className="group flex flex-col lg:flex-row gap-5 lg:gap-10 bg-[#ffffffd7] p-5 md:p-10 rounded-[20px] md:rounded-[40px] justify-between relative overflow-hidden min-h-[20rem] md:h-[30rem] transition-all duration-300 hover:bg-[#ffffff] transform-gpu hover:scale-[1.02] lg:hover:scale-105 will-change-transform cursor-pointer">

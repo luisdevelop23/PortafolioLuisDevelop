@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const NodeIcon = (props: SVGProps<SVGSVGElement>) => (
+const NodejsIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 256 292"
     xmlns="http://www.w3.org/2000/svg"
@@ -78,4 +78,4 @@ const NodeIcon = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default NodeIcon;
+export default NodejsIcon;

@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="flex flex-col items-center gap-10 max-w-[1200px] mx-auto mt-10 md:mt-20 relative mb-[50px] md:mb-[100px] px-4 sm:px-6 md:px-8">
       <div className="flex flex-col items-center  justify-between p-2 backdrop-blur-md w-full ">
         <div className="">
-          <h1 className="text-[3rem] font-semibold text-green-500 AcornBold">
+          <h1 className="text-[3rem] font-semibold text-[#0082C4] AcornBold">
             Created by luis saavedra
           </h1>
         </div>
@@ -23,21 +23,21 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
-            href="https://github.com/luissaavedra"
+            href="https://github.com/luisdevelop23"
             className="text-[4rem] "
           >
             <GithubIcon />
           </a>
           <a
             target="_blank"
-            href="https://github.com/luissaavedra"
+            href="https://www.youtube.com/@LuisDevelop23"
             className="text-[4rem] "
           >
             <YouTubeIcon />
           </a>
           <a
             target="_blank"
-            href="https://github.com/luissaavedra"
+            href="https://www.instagram.com/luis_saavedraf/"
             className="text-[4rem] "
           >
             <InstagramIcon />

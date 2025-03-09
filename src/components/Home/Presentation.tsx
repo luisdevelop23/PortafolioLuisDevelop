@@ -1,4 +1,3 @@
-import React from "react";
 import coding from "../../assets/coding.webp";
 const Presentation = () => {
   return (

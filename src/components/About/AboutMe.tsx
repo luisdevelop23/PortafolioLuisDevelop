@@ -1,3 +1,5 @@
+import AboutCv from "./AboutCv";
+
 const AboutMe = () => {
   return (
     <div className="col-span-1 flex flex-col justify-start rounded-[20px] pt-5 md:col-span-4 md:rounded-[40px] md:pt-10 lg:col-span-5">
@@ -14,6 +16,10 @@ const AboutMe = () => {
         constantly expanding my knowledge, exploring fields like Machine
         Learning and future development with Python.
       </p>
+      <div className="pt-6 w-full flex justify-center md:justify-start">
+
+      <AboutCv />
+      </div>
     </div>
   );
 };

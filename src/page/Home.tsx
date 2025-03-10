@@ -9,26 +9,26 @@ import Work from "../components/Home/Work";
 
 const Home = () => {
   return (
-    <section className="flex flex-col items-center gap-10 max-w-[1200px] mx-auto mt-10 md:mt-10 relative mb-[50px] md:mb-[100px] px-4 sm:px-6 md:px-8">
+    <section className="relative mx-auto mb-[50px] flex max-w-[1200px] flex-col items-center gap-10 px-4 sm:px-6 md:mt-10 md:mb-[100px] md:px-8">
       <Work />
       <Projects />
-      <div className="absolute rotate-12 -top-5 right-2 animate-float">
-        <JsIcon className="md:h-30 md:w-30 h-15 w-30  " />
+      <div className="animate-float absolute top-1 right-5 rotate-12 md:top-1 md:right-5 lg:-top-5 lg:right-2">
+        <JsIcon className="h-10 w-10 md:h-20 md:w-20 lg:h-30 lg:w-30" />
       </div>
-      <div className="absolute -rotate-12 -top-4 left-0 animate-float">
-        <TsIcon className="md:h-30 md:w-30 h-15 w-30 " />
+      <div className="animate-float absolute top-1 left-5 -rotate-12 md:top-1 md:left-5 lg:-top-4 lg:left-0">
+        <TsIcon className="h-10 w-10 md:h-20 md:w-20 lg:h-30 lg:w-30" />
       </div>
-      <div className="absolute rotate-12 top-35 left-15 animate-float">
-        <ReactIcon className="md:h-30 md:w-30 h-15 w-30  " />
+      <div className="animate-float absolute top-14 left-10 rotate-12 md:top-21 md:left-18 lg:top-35 lg:left-15">
+        <ReactIcon className="h-10 w-10 md:h-20 md:w-20 lg:h-30 lg:w-30" />
       </div>
-      <div className="absolute rotate-12 top-35 right-15 animate-float">
-        <LogosNodejs className="md:h-35 md:w-35 h-15 w-30  " />
+      <div className="animate-float absolute top-13 right-9 rotate-12 md:top-21 md:right-10 lg:top-35 lg:right-15">
+        <LogosNodejs className="h-12 w-16 md:h-35 md:w-35" />
       </div>
-      <div className="absolute -rotate-45 -top-20 right-60 animate-float">
-        <MySQLIcon className="md:h-30 md:w-30 h-15 w-30  " />
+      <div className="animate-float absolute -top-1 right-30 -rotate-45 md:-top-3 md:right-40 lg:-top-20 lg:right-60">
+        <MySQLIcon className="h-10 w-10 md:h-20 md:w-20 lg:h-30 lg:w-30" />
       </div>
-      <div className="absolute -rotate-45 -top-20 left-70 animate-float">
-        <MongoDBIcon className="md:h-30 md:w-30 h-15 w-30  " />
+      <div className="animate-float absolute -top-1 left-30 -rotate-45 md:-top-4 md:left-40 lg:-top-20 lg:left-70">
+        <MongoDBIcon className="h-10 w-10 md:h-20 md:w-20 lg:h-30 lg:w-30" />
       </div>
     </section>
   );

@@ -16,23 +16,23 @@ const AboutImprove = () => {
   }, []);
 
   return (
-    <div className="relative w-full col-span-2 row-span-6 col-start-5 row-start-1 gap-10 bg-[#ffffff85] rounded-2xl p-5 overflow-hidden">
-      <h1 className="md:text-[2rem] text-[2rem] sm:text-[3.5rem] font-semibold AcornBold text-zinc-900">
+    <div className="relative col-span-1 row-span-1 gap-10 overflow-hidden rounded-2xl bg-[#ffffff85] p-5 md:col-span-6 md:col-start-1 md:row-span-2 md:row-start-7 lg:col-span-2 lg:col-start-5 lg:row-span-6">
+      <h1 className="AcornBold text-[2rem] font-semibold text-zinc-900 sm:text-[3.5rem] md:text-[2rem]">
         Constantly improve
       </h1>
-      <p className="md:text-[1.2rem] text-[1.2rem] sm:text-[1.5rem] font-semibold text-zinc-700">
+      <p className="text-[1.2rem] font-semibold text-zinc-700 sm:text-[1.5rem] md:text-[1.2rem]">
         It's not about the equipment you start with, but how you evolve with it.
         From a 2012 laptop to a complete setup, but the biggest improvement has
         been in my knowledge.
       </p>
 
       {/* Contenedor de imagen con animación */}
-      <div className="relative w-full  h-[500px] mt-2 flex justify-center items-center">
+      <div className="relative mt-2 flex h-[500px] w-full items-center justify-center">
         {images.map((img, index) => (
           <img
             key={index}
             src={img}
-            className={`absolute rounded-2xl w-full h-full object-cover transition-opacity duration-1000 ${
+            className={`absolute h-full w-full rounded-2xl object-cover transition-opacity duration-1000 ${
               currentImage === index ? "opacity-100" : "opacity-0"
             }`}
             alt={`Setup ${index + 1}`}

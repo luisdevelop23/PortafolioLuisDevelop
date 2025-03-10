@@ -1,12 +1,11 @@
-
 const AboutReadme = () => {
   return (
-    <div className="w-[800px]">
-      <h1 className="text-4xl font-bold text-zinc-900 mb-5 AcornBold">
+    <div className="lg:w-[800px]">
+      <h1 className="AcornBold mb-5 text-[2rem] font-bold text-zinc-900 md:text-[2.5rem] lg:text-[3rem]">
         Experience
       </h1>
 
-      <h3 className="md:text-[1.3rem] text-[1.5rem] font-semibold text-[#0082C4]">
+      <h3 className="text-[1.2rem] font-semibold text-[#0082C4] md:text-[1.3rem] lg:text-[1.5rem]">
         Since I was little, I was curious about technology—how downloading
         pirated games made me feel like a hacker 😂, how taking apart my tablet
         at 10 years old ruined it, how subway systems predicted arrival times,
@@ -15,7 +14,7 @@ const AboutReadme = () => {
         little by little, into software development.
       </h3>
 
-      <h3 className="md:text-[1.3rem] text-[1.5rem] font-semibold text-[#0082C4] mt-5">
+      <h3 className="mt-5 text-[1.2rem] font-semibold text-[#0082C4] md:text-[1.3rem] lg:text-[1.5rem]">
         Before becoming a programmer, I worked in various jobs: at a hotel, in a
         frozen fruit processing plant, cleaning heavy machinery, as a store
         cashier, and even as a store manager. Despite those jobs, I kept pushing
@@ -25,15 +24,15 @@ const AboutReadme = () => {
 
       {/* Work Experience Section */}
       <div className="mt-10">
-        <h2 className="text-3xl font-bold text-zinc-900 mb-3 AcornBold">
+        <h2 className="AcornBold mb-3 text-[2rem] font-bold text-zinc-900 md:text-[2.5rem] lg:text-[3rem]">
           Work Experience
         </h2>
 
-        <div className="bg-[#ffffff85] shadow-md p-5 rounded-lg">
-          <h3 className="text-2xl font-semibold text-[#0082C4]">
+        <div className="rounded-lg bg-[#ffffff85] p-5 shadow-md">
+          <h3 className="AcornBold text-[1.2rem] font-semibold text-[#0082C4] md:text-[1.3rem] lg:text-[1.5rem]">
             Full Stack Developer - ISEDA S.A.C
           </h3>
-          <ul className="list-disc list-inside mt-3 text-[1.2rem] text-zinc-700">
+          <ul className="mt-3 list-inside list-disc text-[0.9rem] text-zinc-700 md:text-[1.2rem] lg:text-[1.3rem]">
             <li>
               Developed web applications using <b>React</b> and{" "}
               <b>TypeScript</b>, ensuring dynamic and responsive user

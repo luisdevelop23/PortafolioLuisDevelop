@@ -3,8 +3,7 @@ import img_kitara from "../assets/webp/py_kitara.webp";
 import img_ecommers from "../assets/webp/py_ecommers.webp";
 import img_profile from "../assets/webp/py_profile.webp";
 import img_pokemon from "../assets/webp/py_pokemon.webp";
-
-import img_agency from "../assets/webp/agencia.webp";
+import img_agency from "../assets/webp/agencia2.webp.jpg";
 
 const projectsList = [
   {

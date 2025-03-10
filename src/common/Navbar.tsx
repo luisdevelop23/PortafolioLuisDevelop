@@ -49,12 +49,12 @@ function NavBar() {
   };
 
   return (
-    <div className="w-full h-28 flex items-center justify-center sticky top-0 z-50">
-      <div className="flex justify-between p-2 backdrop-blur-md bg-white/50 rounded-full lg:w-[500px]">
+    <div className="sticky top-0 z-50 flex h-17  md:h-28 w-full items-center justify-center">
+      <div className="flex justify-between rounded-full bg-white/50 p-2 backdrop-blur-md w-[300px] md:w-[500px]">
         <a
-          className={`text-[#0082C4]  text-xl px-6 py-2 rounded-full cursor-pointer  ${
+          className={`cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] ${
             activeSection === "work" && location.pathname === "/"
-              ? "bg-white font-semibold "
+              ? "bg-white font-semibold"
               : "hover:text-zinc-800"
           }`}
           href="#"
@@ -67,9 +67,9 @@ function NavBar() {
         </a>
 
         <a
-          className={`text-[#0082C4]  text-xl px-6 py-2 rounded-full cursor-pointer ${
+          className={`cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] ${
             activeSection === "projects" && location.pathname === "/"
-              ? "bg-white font-semibold "
+              ? "bg-white font-semibold"
               : "hover:text-zinc-800"
           }`}
           href="#"
@@ -81,9 +81,9 @@ function NavBar() {
           Projects
         </a>
         <Link
-          className={`text-[#0082C4]  transition-all duration-300 text-xl px-6 py-2 rounded-full cursor-pointer ${
+          className={`cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] transition-all duration-300 ${
             location.pathname === "/about"
-              ? "bg-white font-semibold "
+              ? "bg-white font-semibold"
               : "hover:text-zinc-800"
           }`}
           to="/about"
@@ -91,7 +91,7 @@ function NavBar() {
           About
         </Link>
         <a
-          className="text-[#0082C4] hover:text-zinc-800 transition-all duration-300 text-xl px-6 py-2 rounded-full cursor-pointer"
+          className="cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] transition-all duration-300 hover:text-zinc-800"
           href="#"
         >
           Contact

@@ -41,10 +41,14 @@ const AboutImage = () => {
   }, []);
 
   return (
-      <div className="col-span-3  bg-[#0083c45e]  pt-5 md:pt-10 rounded-[20px] md:rounded-[40px] flex flex-col justify-end items-center">
-      <img src={userImg} className="w-80 rounded-full" alt="User" />
+    <div className="col-span-1 flex h-full flex-col items-center justify-center rounded-[20px] bg-[#0083c45e] pt-5 md:col-span-4 md:rounded-[40px] md:pt-10 lg:col-span-3">
+      <img
+        src={userImg}
+        className="w-70 rounded-full md:w-70 lg:w-80"
+        alt="User"
+      />
       <h1
-        className={` text-[3.5rem] py-8  font-bold font-sans text-zinc-800 text-center AcornSemiBold transition-opacity duration-500 ${
+        className={`AcornSemiBold py-8 text-center font-sans text-[3.5rem] font-bold text-zinc-800 transition-opacity duration-500 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >

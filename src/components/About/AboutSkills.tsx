@@ -28,29 +28,29 @@ const icons = [
 ];
 
 const getRandomPosition = () => ({
-  x: Math.random() * 20 - 10, 
-  y: Math.random() * 20 - 10, 
+  x: Math.random() * 20 - 10,
+  y: Math.random() * 20 - 10,
 });
 
 const AboutSkills = () => {
   return (
-    <div className="relative w-full col-span-4 grid grid-cols-4 row-span-3 gap-10 bg-[#ffffff85] rounded-2xl p-10 overflow-hidden">
+    <div className="| relative col-span-1 row-span-1 grid grid-cols-4 gap-10 overflow-hidden rounded-2xl bg-[#ffffff85] p-10 md:col-span-6 md:row-span-3 lg:col-span-4 lg:row-span-3">
       {icons.map((Icon, index) => (
         <motion.div
           key={index}
-          className="flex justify-center items-center"
+          className="flex items-center justify-center"
           animate={{
             x: [0, getRandomPosition().x, 0],
             y: [0, getRandomPosition().y, 0],
           }}
           transition={{
-            duration: 3, 
-            repeat: Infinity, 
-            repeatType: "mirror", 
+            duration: 3,
+            repeat: Infinity,
+            repeatType: "mirror",
             ease: "easeInOut",
           }}
         >
-          <Icon className="md:h-15 md:w-15 h-10 w-10" />
+          <Icon className="h-10 w-10 md:h-15 md:w-15" />
         </motion.div>
       ))}
     </div>

@@ -21,19 +21,19 @@ const About = () => {
   }, []);
 
   return (
-    <section className="flex flex-col items-center gap-10 max-w-[1200px] mx-auto mt-10 md:mt-10 relative mb-[50px] md:mb-[100px] px-4 sm:px-6 md:px-8">
+    <section className="relative mx-auto mt-10 mb-[50px] flex max-w-[1200px] flex-col items-center gap-10 px-4 sm:px-6 md:mt-10 md:mb-[100px] md:px-8">
       <AboutIm />
-      <div className="w-full grid grid-cols-8 gap-20">
+      <div className="grid w-full grid-cols-1 gap-20 md:grid-cols-8">
         <AboutImage />
         <AboutMe />
       </div>
-      <div className="grid grid-cols-6 grid-rows-6 gap-4 w-full">
+      <div className="grid w-full grid-cols-1 grid-rows-3 gap-4 md:grid-cols-6 md:grid-rows-6 lg:grid-cols-6 lg:grid-rows-8">
         <AboutSkills />
         <AboutStudies />
         <AboutGoals />
         <AboutImprove />
       </div>
-        <AboutReadme />
+      <AboutReadme />
     </section>
   );
 };

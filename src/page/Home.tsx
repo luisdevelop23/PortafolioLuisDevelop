@@ -9,7 +9,7 @@ import Work from "../components/Home/Work";
 
 const Home = () => {
   return (
-    <section className="relative mx-auto mb-[50px] flex max-w-[1200px] flex-col items-center gap-10 px-4 sm:px-6 md:mt-10 md:mb-[100px] md:px-8">
+    <section className="relative mx-auto mb-[50px] flex max-w-[1200px] flex-col items-center gap-10 px-4 sm:px-6 mt-5 md:mt-10 md:mb-[100px] md:px-8">
       <Work />
       <Projects />
       <div className="animate-float absolute top-1 right-5 rotate-12 md:top-1 md:right-5 lg:-top-5 lg:right-2">

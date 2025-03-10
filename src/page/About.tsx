@@ -27,7 +27,7 @@ const About = () => {
         <AboutImage />
         <AboutMe />
       </div>
-      <div className="grid w-full grid-cols-1 grid-rows-3 gap-4 md:grid-cols-6 md:grid-rows-6 lg:grid-cols-6 lg:grid-rows-8">
+      <div className="grid w-full grid-cols-1 grid-rows-3 gap-4 md:grid-cols-6 md:grid-rows-6 lg:grid-cols-6 lg:grid-rows-6">
         <AboutSkills />
         <AboutStudies />
         <AboutGoals />

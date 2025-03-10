@@ -49,10 +49,10 @@ function NavBar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 flex h-17  md:h-28 w-full items-center justify-center">
-      <div className="flex justify-between rounded-full bg-white/50 p-2 backdrop-blur-md w-[300px] md:w-[500px]">
+    <div className="sticky top-0 z-50 flex h-17 w-full items-center justify-center md:h-28">
+      <div className="flex w-[300px] justify-between rounded-full bg-white/50 p-2 backdrop-blur-md md:w-[500px]">
         <a
-          className={`cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] ${
+          className={`cursor-pointer rounded-full px-3 py-2 text-[0.9rem] text-[#0082C4] md:px-6 md:py-2 md:text-[1.5rem] ${
             activeSection === "work" && location.pathname === "/"
               ? "bg-white font-semibold"
               : "hover:text-zinc-800"
@@ -67,7 +67,7 @@ function NavBar() {
         </a>
 
         <a
-          className={`cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] ${
+          className={`cursor-pointer rounded-full px-3 py-2 text-[0.9rem] text-[#0082C4] md:px-6 md:py-2 md:text-[1.5rem] ${
             activeSection === "projects" && location.pathname === "/"
               ? "bg-white font-semibold"
               : "hover:text-zinc-800"
@@ -81,7 +81,7 @@ function NavBar() {
           Projects
         </a>
         <Link
-          className={`cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] transition-all duration-300 ${
+          className={`cursor-pointer rounded-full px-3 py-2 text-[0.9rem] text-[#0082C4] transition-all duration-300 md:px-6 md:py-2 md:text-[1.5rem] ${
             location.pathname === "/about"
               ? "bg-white font-semibold"
               : "hover:text-zinc-800"
@@ -91,8 +91,9 @@ function NavBar() {
           About
         </Link>
         <a
-          className="cursor-pointer rounded-full px-3 py-2 md:px-6 md:py-2 text-[0.9rem] md:text-[1.5rem] text-[#0082C4] transition-all duration-300 hover:text-zinc-800"
-          href="#"
+          className="cursor-pointer rounded-full px-3 py-2 text-[0.9rem] text-[#0082C4] transition-all duration-300 hover:text-zinc-800 md:px-6 md:py-2 md:text-[1.5rem]"
+          href="https://www.linkedin.com/in/luissaavedradev/"
+          target="_blank"
         >
           Contact
         </a>

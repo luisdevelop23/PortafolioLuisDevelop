@@ -1,11 +1,11 @@
 const AboutReadme = () => {
   return (
     <div className="lg:w-[800px]">
-      <h1 className="AcornBold mb-5 text-[2rem] font-bold text-zinc-900 md:text-[2.5rem] lg:text-[3rem]">
+      <h1 className="AcornBold mb-5 text-[1.8rem] font-bold text-zinc-900 md:text-[2.5rem] lg:text-[3rem]">
         Experience
       </h1>
 
-      <h3 className="text-[1.2rem] font-semibold text-[#0082C4] md:text-[1.3rem] lg:text-[1.5rem]">
+      <h3 className="text-[1rem] font-semibold text-[#0082C4] md:text-[1.3rem] lg:text-[1.5rem]">
         Since I was little, I was curious about technology—how downloading
         pirated games made me feel like a hacker 😂, how taking apart my tablet
         at 10 years old ruined it, how subway systems predicted arrival times,
@@ -14,7 +14,7 @@ const AboutReadme = () => {
         little by little, into software development.
       </h3>
 
-      <h3 className="mt-5 text-[1.2rem] font-semibold text-[#0082C4] md:text-[1.3rem] lg:text-[1.5rem]">
+      <h3 className="mt-5 text-[1rem] font-semibold text-[#0082C4] md:text-[1.3rem] lg:text-[1.5rem]">
         Before becoming a programmer, I worked in various jobs: at a hotel, in a
         frozen fruit processing plant, cleaning heavy machinery, as a store
         cashier, and even as a store manager. Despite those jobs, I kept pushing
@@ -24,7 +24,7 @@ const AboutReadme = () => {
 
       {/* Work Experience Section */}
       <div className="mt-10">
-        <h2 className="AcornBold mb-3 text-[2rem] font-bold text-zinc-900 md:text-[2.5rem] lg:text-[3rem]">
+        <h2 className="AcornBold mb-3 text-[1.8rem] font-bold text-zinc-900 md:text-[2.5rem] lg:text-[3rem]">
           Work Experience
         </h2>
 

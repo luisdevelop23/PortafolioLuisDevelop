@@ -21,7 +21,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="relative mx-auto mt-10 mb-[50px] flex max-w-[1200px] flex-col items-center gap-10 px-4 sm:px-6 md:mt-10 md:mb-[100px] md:px-8">
+    <section className="relative mx-auto mt-5 mb-[50px] flex max-w-[1200px] flex-col items-center gap-10 px-4 sm:px-6 md:mt-10 md:mb-[100px] md:px-8">
       <AboutIm />
       <div className="grid w-full grid-cols-1 gap-20 md:grid-cols-8">
         <AboutImage />

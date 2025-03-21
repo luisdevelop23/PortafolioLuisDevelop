@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex w-full items-center justify-around text-[2rem] md:text-[4rem]">
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/luissaavedradev/"
+            href="https://www.linkedin.com/in/luisdevelop23/"
           >
             <LinkedInIcon />
           </a>

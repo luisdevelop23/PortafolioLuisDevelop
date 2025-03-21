@@ -92,7 +92,7 @@ function NavBar() {
         </Link>
         <a
           className="cursor-pointer rounded-full px-3 py-2 text-[0.9rem] text-[#0082C4] transition-all duration-300 hover:text-zinc-800 md:px-6 md:py-2 md:text-[1.5rem]"
-          href="https://www.linkedin.com/in/luissaavedradev/"
+          href="https://www.linkedin.com/in/luisdevelop23/"
           target="_blank"
         >
           Contact

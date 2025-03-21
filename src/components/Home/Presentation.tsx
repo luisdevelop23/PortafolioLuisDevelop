@@ -20,7 +20,7 @@ const Presentation = () => {
         <div className="mt-2 lg:mt-0">
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/luissaavedradev/"
+            href="https://www.linkedin.com/in/luisdevelop23/"
             className="rounded-full bg-gradient-to-tr from-blue-400 to-green-600 px-1 py-1 font-sans text-[0.9rem] font-bold text-zinc-800 md:px-6 md:py-2 lg:text-[1.2rem]"
           >
             Know me better
